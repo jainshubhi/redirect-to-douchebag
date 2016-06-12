@@ -11,5 +11,8 @@ app = Flask(__name__)
 def whohasatiny():
     return redirect('https://www.facebook.com/DonaldTrump/')
 
+@app.route('/github')
+    return redirect('https://github.com/jainshubhi/redirect-to-douchebag')
+
 if __name__ == '__main__':
     app.run()
