@@ -12,6 +12,7 @@ def whohasatiny():
     return redirect('https://www.facebook.com/DonaldTrump/')
 
 @app.route('/github')
+def github():
     return redirect('https://github.com/jainshubhi/redirect-to-douchebag')
 
 if __name__ == '__main__':
